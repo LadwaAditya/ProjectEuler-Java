@@ -7,7 +7,10 @@ public class Main {
 //        Multiply multiply = new Multiply(1000);
 //        multiply.displaySum();
 
-        Fibonacci fibo = new Fibonacci(4000000);
-        fibo.displaySum();
+//        Fibonacci fibo = new Fibonacci(4000000);
+//        fibo.displaySum();
+
+        PrimeNumber primeNumber = new PrimeNumber();
+        primeNumber.displayPrimeFactor();
     }
 }
