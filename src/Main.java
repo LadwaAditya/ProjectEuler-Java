@@ -10,7 +10,10 @@ public class Main {
 //        Fibonacci fibo = new Fibonacci(4000000);
 //        fibo.displaySum();
 
-        PrimeNumber primeNumber = new PrimeNumber();
-        primeNumber.displayPrimeFactor();
+//        PrimeNumber primeNumber = new PrimeNumber();
+//        primeNumber.displayPrimeFactor();
+
+        Palindrom palindrom = new Palindrom();
+        palindrom.printPalindrom();
     }
 }
