@@ -16,19 +16,19 @@ public class Palindrom {
             }
         }
 
-
     }
 
     private boolean isPalindrom(int num) {
         int reverse = 0;
+        int orig = num;
         int remainder = 0;
         while (num > 0) {
             remainder = num % 10;
             reverse = reverse * 10 + remainder;
-            num /= 10;
+            num = num / 10;
 
         }
-        return reverse == num;
+        return reverse == orig;
     }
 
     public void printPalindrom() {
