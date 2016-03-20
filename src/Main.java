@@ -15,7 +15,8 @@ public class Main {
 //        source.PrimeNumber primeNumber = new source.PrimeNumber();
 //        primeNumber.displayPrimeFactor();
 
-        Palindrom palindrom = new Palindrom();
-        palindrom.printPalindrom();
+//        Palindrom palindrom = new Palindrom();
+//        palindrom.printPalindrom();
+
     }
 }
