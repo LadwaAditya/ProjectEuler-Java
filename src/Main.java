@@ -18,7 +18,9 @@ public class Main {
 //        Palindrom palindrom = new Palindrom();
 //        palindrom.printPalindrom();
 
-        SmallestMultiple smallestMultiple = new SmallestMultiple();
-        smallestMultiple.displayMultiple();
+//        SmallestMultiple smallestMultiple = new SmallestMultiple();
+//        smallestMultiple.displayMultiple();
+
+
     }
 }

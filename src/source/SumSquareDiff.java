@@ -20,6 +20,17 @@ public class SumSquareDiff {
     private long squareSum = 0;
 
     public SumSquareDiff() {
+        for (int i = 1; i <= 100; i++) {
+            sumSquare += i * i;
+        }
+        for (int i = 0; i <= 100; i++) {
+            squareSum += i;
+        }
+        squareSum = squareSum * squareSum;
+        sumSquareDiff = squareSum - sumSquare;
+    }
 
+    public void displaySumSquareDiff() {
+        System.out.println(sumSquareDiff);
     }
 }
