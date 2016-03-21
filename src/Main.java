@@ -1,4 +1,5 @@
 import source.SmallestMultiple;
+import source.SumSquareDiff;
 
 /**
  * Created by Aditya on 16-Mar-16.
@@ -21,6 +22,7 @@ public class Main {
 //        SmallestMultiple smallestMultiple = new SmallestMultiple();
 //        smallestMultiple.displayMultiple();
 
-
+        SumSquareDiff squareDiff = new SumSquareDiff();
+        squareDiff.displaySumSquareDiff();
     }
 }
