@@ -22,8 +22,6 @@ public class SumSquareDiff {
     public SumSquareDiff() {
         for (int i = 1; i <= 100; i++) {
             sumSquare += i * i;
-        }
-        for (int i = 0; i <= 100; i++) {
             squareSum += i;
         }
         squareSum = squareSum * squareSum;
