@@ -9,4 +9,25 @@ package source;
  * Created by Aditya on 22-Mar-16.
  */
 public class ThousandPrime {
+
+    private long thousandPrime = 0;
+
+    public ThousandPrime() {
+        int n = 2;
+        boolean flag = false;
+        int count = 0;
+        while (true) {
+            for (int i = 2; i <= n / 2; i++) {
+                flag = n % i == 0;
+                if (flag)
+                    break;
+            }
+            if(!flag)
+                count++;
+        }
+    }
+
+    public void displayThousandPrime() {
+        System.out.println(thousandPrime);
+    }
 }
