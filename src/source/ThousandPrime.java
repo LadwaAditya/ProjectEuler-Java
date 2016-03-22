@@ -22,8 +22,13 @@ public class ThousandPrime {
                 if (flag)
                     break;
             }
-            if(!flag)
+            if (!flag)
                 count++;
+            if (count == 10001) {
+                thousandPrime = n;
+                break;
+            }
+            n++;
         }
     }
 

@@ -1,5 +1,6 @@
 import source.SmallestMultiple;
 import source.SumSquareDiff;
+import source.ThousandPrime;
 
 /**
  * Created by Aditya on 16-Mar-16.
@@ -22,7 +23,10 @@ public class Main {
 //        SmallestMultiple smallestMultiple = new SmallestMultiple();
 //        smallestMultiple.displayMultiple();
 
-        SumSquareDiff squareDiff = new SumSquareDiff();
-        squareDiff.displaySumSquareDiff();
+//        SumSquareDiff squareDiff = new SumSquareDiff();
+//        squareDiff.displaySumSquareDiff();
+
+        ThousandPrime thousandPrime = new ThousandPrime();
+        thousandPrime.displayThousandPrime();
     }
 }
