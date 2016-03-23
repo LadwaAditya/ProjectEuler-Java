@@ -1,3 +1,4 @@
+import source.LargestProductSeries;
 import source.SmallestMultiple;
 import source.SumSquareDiff;
 import source.ThousandPrime;
@@ -26,7 +27,10 @@ public class Main {
 //        SumSquareDiff squareDiff = new SumSquareDiff();
 //        squareDiff.displaySumSquareDiff();
 
-        ThousandPrime thousandPrime = new ThousandPrime();
-        thousandPrime.displayThousandPrime();
+//        ThousandPrime thousandPrime = new ThousandPrime();
+//        thousandPrime.displayThousandPrime();
+
+        LargestProductSeries productSeries = new LargestProductSeries();
+        productSeries.displayProduct();
     }
 }
